@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Imprenta Creativa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero -->
+  <section class="bg-gray-900 text-white min-h-screen flex items-center justify-center bg-cover bg-center"
+           style="background-image: url('https://loremflickr.com/1600/900/printing');">
+    <div class="bg-black bg-opacity-60 p-10 rounded-lg text-center max-w-2xl">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">Transformamos tus ideas en impresiones impactantes</h1>
+      <p class="mb-8 text-lg">Desde tarjetas hasta catálogos, somos tu aliado creativo.</p>
+      <a href="#contacto" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-6 py-3 rounded transition">Solicita tu cotización</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-12">Nuestros Servicios</h2>
+    <div class="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto px-4">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <img src="https://loremflickr.com/80/80/printer" alt="" class="mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Impresión Digital</h3>
+        <p>Alta calidad en tirajes cortos. Ideal para tarjetas, volantes, y más.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <img src="https://loremflickr.com/80/80/design" alt="" class="mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Diseño Gráfico</h3>
+        <p>Diseños profesionales y personalizados para tu marca o negocio.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <img src="https://loremflickr.com/80/80/packaging" alt="" class="mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Empaques & Etiquetas</h3>
+        <p>Soluciones creativas para destacar tus productos en el mercado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="py-20 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-12">Proyectos Destacados</h2>
+    <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-4 max-w-6xl mx-auto">
+      <img src="https://loremflickr.com/400/300/print1" class="rounded-lg shadow-md" alt="Proyecto 1">
+      <img src="https://loremflickr.com/400/300/print2" class="rounded-lg shadow-md" alt="Proyecto 2">
+      <img src="https://loremflickr.com/400/300/print3" class="rounded-lg shadow-md" alt="Proyecto 3">
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 bg-gray-100">
+    <div class="max-w-xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Contáctanos</h2>
+      <p class="mb-8 text-gray-600">Estamos listos para ayudarte. Completa el formulario y te responderemos pronto.</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full p-3 border rounded-lg" required />
+        <input type="email" placeholder="Correo electrónico" class="w-full p-3 border rounded-lg" required />
+        <textarea rows="4" placeholder="Tu mensaje" class="w-full p-3 border rounded-lg" required></textarea>
+        <button type="submit" class="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 rounded transition">
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p class="text-sm">&copy; 2025 Imprenta Creativa — Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
